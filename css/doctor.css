@@ -1,0 +1,61 @@
+.breadcrumb{
+    background: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.doctors{
+    background-color: #FFF !important;
+}
+/* Start Func */ 
+.func{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFF;
+    background-size: cover;
+}
+.func .bran{
+    background: rgba(2,2,2,.7);
+    padding: 50px 0; 
+}
+.func .br{
+    margin: 0 auto;
+}
+.func .par{
+    max-width: 50%;
+    margin:  30px auto;
+}
+.func .type{
+    border-right: 1px solid #FF3700;
+}
+.func .row p{
+    color: #ccc;
+    font-weight: 500
+}
+/* End Func */ 
+/* End Hospital Services */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Hospital Services */ 

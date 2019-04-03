@@ -1,0 +1,74 @@
+@media(min-width:540px) and (max-width:919px) {
+    .center{
+        margin: 0 auto;
+    }
+}
+@media(min-width:0) and (max-width:720px) {
+    .Department .card{
+        margin: 0 auto;
+    }
+}
+@media(min-width:576px) and (max-width:767px) {
+    .services .item i{
+        width: 35px;
+        
+    }
+}
+@media(min-width:0) and (max-width:575px) {
+    .doctors .card{
+        margin: 0 auto;
+    }
+    }
+    
+    @media(max-width:767px){
+        .choose-us .images{
+            display: none;
+        }
+        /* Footer */
+        .footer .vv{
+            margin-top: 15px;
+        }
+        
+    }
+    @media(min-width:768px) and (max-width:992px){
+        .doctors .last{
+            margin: auto;
+        }
+    }
+@media (max-width:992px){
+        .blog .card{
+            margin: auto;
+        }
+    }
+    @media (max-width:991px){
+        .footer .hh{
+            margin-top: 20px;
+        }
+    }
+    /* Contact */
+    @media (max-width:575px){
+        .conn{
+          display: inline-block;
+          margin-bottom: 50px;
+        }
+        .connn h3{
+            text-align: center !important;
+        }
+        .connn .br{
+            margin: 20px auto;
+        }
+        .text-left{
+           text-align: center !important;
+        }
+        .footer{
+           text-align: center !important;
+        }
+        .footer .br{
+            margin: 20px auto;
+        }
+        .footer .date{
+            text-align: left;
+        }
+        
+        
+    }

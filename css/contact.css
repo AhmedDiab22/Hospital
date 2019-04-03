@@ -1,0 +1,83 @@
+.breadcrumb{
+    background: none;
+    padding: 0;
+    margin-top: 10px;
+}
+/* Start Contact */ 
+.contact{
+    padding: 50px 0;
+}
+.contact .br{
+    margin:  0 auto;
+}
+.contact .map{
+    padding: 50px 0;
+}
+.contact .conn h3{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+.conn .br{
+    width: 90px;
+    margin: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.conn h4{
+    color: #FF3700;
+    font-weight: 500;
+    font-size: 18px;
+}
+.conn p{
+    color: #868686;
+    margin-bottom: 0;
+}
+.conn a {
+    color: #868686;
+    text-decoration: none;
+}
+.conn form textarea{
+    resize: none;
+    height: 145px;
+}
+.form-control{
+    background-color: #f9f9f9;
+    border: none;
+}
+.form-control::-webkit-input-placeholder{
+    color: #c9c9c9;
+    text-transform: capitalize;
+}
+.contact .formm .btn-primary{
+    padding: 8px 45px;
+    letter-spacing: 1.7px;
+    border: none;
+    border-radius: 0;
+    background-color: #FF3700;
+    text-transform: uppercase;
+    font-weight: 600
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Contact */ 
+

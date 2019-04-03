@@ -1,0 +1,128 @@
+.breadcrumb{
+    background: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.services{
+   padding: 25px 0 !important; 
+}
+.Department{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFF;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.Department .bran{
+    background: rgba(2,2,2,.7);
+    padding: 50px 0; 
+}
+.Department{
+    padding: 0 !important;
+}
+.Department .lead{
+    margin: 0 auto;
+    max-width: 50%;
+    margin-bottom: 40px;
+    color: #FFF
+}
+.Department .br{
+    margin-bottom: 40px !important;
+}
+.Department .card{
+    background: none;
+    border: 1px solid #FFF;
+}
+/* Start Price Table */
+.price-table{
+    padding: 70px 0;
+    background-color: #eaeaea
+}
+.price-table h1{
+    margin-bottom: 5px !important;
+}
+.price-table .br{
+    margin: 20px auto;
+}
+.price-table h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.price-table .pragraph {
+    color: #969696;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 70%;
+    margin: auto;   
+}
+.price{
+    margin-top: 40px;
+}
+.price-table .price .card{
+    padding: 30px 0;
+    margin: 10px auto
+}
+.price .card h2{
+    color: #08526d;
+    font-size: 22px;
+    font-weight: bold;
+}
+.price .card span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #969696;
+}
+.price .card p{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #08526d;
+    background-color: #eaeaea;
+    width: 100%;
+}
+.price .card .card-body{
+    padding: 0;
+}
+.price .btn-primary{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #ec1c23;
+    border: 1px solid #ec1c23;
+    border-radius: 0;
+}
+.price button{
+    letter-spacing: 4.5px;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+.price sub{
+    font-size: 50%;
+    font-weight: 700
+}
+.price .card:hover{
+    -webkit-transform: scale(1.1 , 1.1);
+    -moz-transform: scale(1.1 ,1.1);
+    -o-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+.price .card:hover p{
+    background-color: #ec1c23;
+    color: #FFF;
+}
+.price .card,
+.price .card .btn-primary,
+.price .card p
+{
+    transition: all .3s ease-in-out;
+}
+.price .card:hover .btn-primary{
+    background-color: #08526d;
+    border: 1px solid #08526d
+}
+/* End Price Table */

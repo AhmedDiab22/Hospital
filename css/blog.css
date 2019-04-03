@@ -1,0 +1,27 @@
+.breadcrumb{
+    background: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.btn-toolbar{
+    margin-top: 15px;
+}
+.btn-toolbar .btn-secondary{
+    color: #6c757d;
+    background-color: #FFF;
+    border: none;
+}
+.btn-toolbar .btn-secondary{
+    transition:  all .5s ease-in-out;
+}
+.btn-toolbar .btn-secondary:hover {
+    color: #FFF;
+    background-color: #005094;
+}
+
+.btn-toolbar .btt{
+    padding-right:  10px;
+}
+.btn-toolbar .bttt{
+    padding-right:  10px;
+}

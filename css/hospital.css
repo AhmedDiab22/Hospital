@@ -1,0 +1,470 @@
+/* Start Header */
+.capital{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.br{
+    border: 1px solid #FF3700;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Header .navbar{
+    padding: 15px 0;
+}
+.Header .navbar a{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+
+    cursor: pointer;
+}
+.Header .navbar a:hover{
+    color: #FFF;
+}
+ .dropdown-item:hover {
+    color: #FF3700;
+    text-decoration: none;
+    background-color: #005094;
+    padding-left: 8px;
+    transition: all .5s ease-in-out;
+}
+
+
+.Header a span{
+    color: #FF3700;
+}
+.Header .navbar-light{
+    background-color: #005094;
+}
+.Header .right{
+    color: #FFF;
+}
+.Header .right:hover i{
+    color: #c1c1c1;
+}
+.links .bg-dark {
+    background-color: #ffffff!important;
+}
+.links .navbar-light .navbar-nav .active>.nav-link{
+    color: #FF3700;
+}
+.links .navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 80, 148)
+}
+
+.links .navbar-light .navbar-nav .nav-link:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+
+/* End Links */ 
+
+/* Start Slider */ 
+.slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 2;
+}
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider .carousal-one{
+    background-image: url('../img/doctors-resource-collaborative-albuquerque-1600x530.jpg');
+}
+.slider .carousal-two{
+    background-image: url('../img/doctors-hospital-design-master768.jpg');
+}
+.slider .carousal-three{
+    background-image: url('../img/test.jpg'); 
+}
+.slider .carousal-four{
+    background-image: url('../img/39575449-hospital-wallpapers.jpg'); 
+}
+.slider .carousal-five{
+    background-image: url('../img/Yashoda-Hospital-Somajiguda-Hyderabad-Hyderabad-8a3f27.jpg'); 
+}
+.slider .carousal-sex{
+    background-image: url('../img/sheffield-childrens-hospital-morag-myerscough-interior-design-uk_dezeen_2364_hero.gif'); 
+}
+.slider .carousel-indicators li{
+    width: 20px;
+    height: 5px;
+    border: 1px solid #b7b7b7;  
+}
+/* End Slider */ 
+/* Start Description */
+.Description{
+    padding-bottom: 80px;
+}
+.Description .read{
+    margin-top: 80px;
+}
+
+.Description span{
+    color: #797979;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px
+}
+.Description .spann{
+    width: 80%;
+}
+.Description .btn-danger{
+    background-color: #FF3700;
+    color: #FFF;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 4%;
+    letter-spacing: 3px;
+}
+.Description .image{
+    width: 90%;
+    height: 90%;
+    margin-top: 30px
+}
+/* End Description */
+/* End Department */
+.Department{
+    padding: 80px 0 ;
+    background-color: #e6e6e6; 
+}
+.Department .br{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    
+}
+.Department .item{
+    margin-top: 50px;  
+}
+.Department{
+    overflow: hidden;
+}
+.Department .card{
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.Department .card{
+    transition: all .5s ease-in-out;
+}
+.Department .card:hover{
+    background-color: #005094;
+    color: #FFF;
+}
+.Department .card:hover i,
+.Department .card:hover h5{
+    color: #FF3700;
+}
+.Department i{
+    margin-left: 20px;
+}
+.Department p{
+    line-height: 1.9;
+}
+/* End Department */
+/* Start Services */
+.services{
+    padding: 80px 0 ;
+}
+.services .br{
+    margin: 0px auto;
+ 
+}
+.services .item{
+    margin-top: 50px;  
+}
+.services{
+    overflow: hidden;
+}
+.services .icon{
+    float: left;
+}
+.services .text{
+    float: left;
+    max-width: 77.333%;
+    margin-left: 15px;
+    text-align: left;
+}
+.services h3{
+    font-size: larger;
+}
+.services p{
+    line-height: 1.9;
+    color: #6f6f6f;
+}
+.services .item:hover h3,
+.services .item:hover i{
+    color: #FF3700;
+    transition: all .5s ease-in-out;
+}
+/* End Services */
+/* Start About Doctors */
+.doctors{
+    padding: 70px 0;
+    background-color: #e6e6e6;
+}
+.doctors .br{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    
+}
+.doctors .card{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.doctors .card img{
+    width: 100%;
+    height: 250px;
+}
+.doctors .card-body{
+    background-color: #005094;
+    color: #FFF;
+}
+.doctors .card{
+    position: relative;
+}
+.doctors .card .over{
+    visibility: hidden;
+}
+.doctors .card:hover .over{
+    visibility: visible;
+}
+.doctors .card .over{
+    padding: 50px 15px;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FF3700;
+    opacity: 0.9;
+}
+.doctors .card .over p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.doctors .card .over .line{
+    margin: 0;
+    width: 50px;
+    border: 1px solid #FFF
+}
+.doctors .card .over a{
+    color: #FFF;
+}
+.doctors .card .over .info{
+    margin-top: 30px;
+}
+.doctors .card .over ul{
+    float: left;
+}
+.doctors .info a{
+    text-decoration: none;
+}
+.doctors .info a:hover i{
+    color: #005094;
+}
+.doctors .card .over ul li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+/* End About Doctors */
+/* Start Our Blog */
+.choose-us{
+    padding : 80px 0;
+}
+.choose-us .line{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 70px;
+}
+.choose-us .desc{
+    margin-top: 30px; 
+}
+.choose-us h3 span{
+    color: #005094;
+    font-weight: bold;
+    font-size: 25px;
+    border-left: 2px solid #005094;
+    padding-left: 15px;
+}
+.choose-us h4{
+    color: #a2a2a2;
+    max-width: 70%;
+    margin-bottom: 30px;
+}
+.choose-us p{
+    max-width: 90%;
+    color: #b7b7b7;
+}
+.choose-us .btn-danger{
+    letter-spacing: 1.7px;
+    background-color: #FF3700;
+    color: #FFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.choose-us .images img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* End Choose Us */
+
+/* Start Our Blog */
+.blog{
+    padding: 80px 0;
+    background-color: #e6e6e6; 
+}
+.blog .br{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    
+}
+.blog .card{
+    margin-bottom: 30px;
+    border: none;
+}
+.blog .card span{
+    color: #005094;
+}
+.blog .card a{
+    color: #000;
+}
+.blog .card:hover h5,
+.blog .card:hover a{
+    color: #005094;
+}
+.blog .card a{
+    text-decoration: none;
+}
+.blog .card h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.blog .card p{
+    color: #a2a2a2;
+    line-height: 1.7;
+}
+/* End Our Blog */
+/* End Serve */
+.reserve{
+    padding: 80px 0;
+}
+.reserve .btn-primary{
+    margin-top: 32px;
+    width: 100%;
+    background-color: #FF3700;
+    border: 1px solid #FF3700;
+}
+.reserve .br{
+    margin: 0px auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    
+}
+/* End Reserve */
+/* Start Footer*/
+.footer{
+    padding: 80px 0;
+    background-color: #005094;
+    color: #d6d6d6;
+    text-align: left;
+}
+
+.footer p{
+    font-weight: 500;
+    line-height: 1.7;
+}
+.footer h3{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer .line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.footer a{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer .date span{
+    float: right;
+}
+.footer .date .br{
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    opacity: .6
+}
+.footer a{
+    text-decoration: none;
+    color: #d6d6d6;
+}
+.footer a:hover{
+    color: #FF3700;
+}
+.footer .phone a:hover {
+    color: #FF3700;
+}
+.footer input{
+    margin-bottom: 10px;
+}
+.social ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+/* End Footer*/
+
+/* Start Copy */ 
+.copy{
+    padding: 10px 0;
+    background-color: #FF3700;
+}
+.copy h3{
+    font-size: 14px;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+.copy span{
+    color: #005094;
+    font-weight: bold;
+}
+
+/*.links .navbar-light .navbar-nav .active>.nav-link,
+.links .navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+*/
+
+
+
+
+
+
+
+
+/* End Copy */
